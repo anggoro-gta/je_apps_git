@@ -1,0 +1,12 @@
+CRITICAL - 2022-02-17 19:06:13 --> Undefined array key 0
+#0 C:\xampp\htdocs\siDika\app\Views\entry\tujuandetailcreate.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('entry/tujuandet...', Array, true)
+#4 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(58): view('entry/tujuandet...', Array)
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->tambahindikatortujuanpd()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,80 @@
+ERROR - 2022-04-07 08:07:48 --> Unknown column 'indikator_tujuanpd' in 'field list'
+CRITICAL - 2022-04-07 08:07:48 --> Unknown column 'indikator_tujuanpd' in 'field list'
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\siDika\app\Models\tbsasaranpddetailModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\siDika\app\Controllers\Entrysasaranpd.php(174): App\Models\tbsasaranpddetailModel->saveindikatorsasaranpd('indikator satpo...', 'awal', 0.7, 'idm', '10')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrysasaranpd->saveindikatorsasaranpd()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrysasaranpd))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-07 02:15:13 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sidika`.`tb_sasaranpd`, CONSTRAINT `tb_sasaranpd_ibfk_1` FOREIGN KEY (`fr_id_tujuanpd`) REFERENCES `tb_tujuanpd` (`id_tujuanpd`))
+CRITICAL - 2022-04-07 02:15:13 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sidika`.`tb_sasaranpd`, CONSTRAINT `tb_sasaranpd_ibfk_1` FOREIGN KEY (`fr_id_tujuanpd`) REFERENCES `tb_tujuanpd` (`id_tujuanpd`))
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\siDika\app\Models\tbtujuanpdModel.php(132): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(298): App\Models\tbtujuanpdModel->deletetujuanpdbyid('16')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->hapustujuanpd()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-07 19:40:11 --> Undefined variable $data
+#0 C:\xampp\htdocs\siDika\app\Controllers\Entrysasaranpd.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 300)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrysasaranpd->apigetdatatujuanpd()
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrysasaranpd))
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-07 20:00:22 --> Undefined property: App\Controllers\Entrysasaranpd::$ms_visi
+#0 C:\xampp\htdocs\siDika\app\Controllers\Entrysasaranpd.php(315): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 315)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrysasaranpd->viewprintpdfsasaranpd()
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrysasaranpd))
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-07 20:05:17 --> Undefined property: App\Controllers\Entrysasaranpd::$tb_tujuanpd_detail
+#0 C:\xampp\htdocs\siDika\app\Controllers\Entrysasaranpd.php(387): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 387)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrysasaranpd->viewprintpdfsasaranpd()
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrysasaranpd))
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-07 20:11:07 --> Unknown column 'fr_id_tujuan' in 'field list'
+CRITICAL - 2022-04-07 20:11:07 --> Unknown column 'fr_id_tujuan' in 'field list'
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 C:\xampp\htdocs\siDika\app\Models\tbsasaranpdModel.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\siDika\app\Controllers\Entrysasaranpd.php(329): App\Models\tbsasaranpdModel->getfridtujuanpd_distinc('1.03.0.00.0.00....')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrysasaranpd->viewprintpdfsasaranpd()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrysasaranpd))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-07 20:17:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-04-07 20:17:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_misi...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_misi...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_misi...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `id_misi...', Array, false)
+#4 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(338): App\Models\msmisiModel->getmisibyidmisi_operasi_or('')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

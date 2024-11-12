@@ -1,0 +1,10 @@
+CRITICAL - 2023-09-07 22:17:33 --> Invalid file: App\Views\Auth\registerview.php
+#0 /var/www/vhosts/e-pokir.kedirikab.go.id/sidika/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/e-pokir.kedirikab.go.id/sidika/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/e-pokir.kedirikab.go.id/sidika/vendor/myth/auth/src/Controllers/AuthController.php(402): view()
+#3 /var/www/vhosts/e-pokir.kedirikab.go.id/sidika/vendor/myth/auth/src/Controllers/AuthController.php(133): Myth\Auth\Controllers\AuthController->_render()
+#4 /var/www/vhosts/e-pokir.kedirikab.go.id/sidika/vendor/codeigniter4/framework/system/CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->register()
+#5 /var/www/vhosts/e-pokir.kedirikab.go.id/sidika/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/e-pokir.kedirikab.go.id/sidika/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/e-pokir.kedirikab.go.id/sidika.e-pokir.kedirikab.go.id/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}

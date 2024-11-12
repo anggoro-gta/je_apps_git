@@ -1,0 +1,24 @@
+CRITICAL - 2021-12-25 02:38:30 --> Array to string conversion
+#0 C:\xampp\htdocs\siDika\app\Views\komik\createkomik.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('komik/createkom...', Array, true)
+#4 C:\xampp\htdocs\siDika\app\Controllers\Komik.php(49): view('komik/createkom...', Array)
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Komik->create()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-25 18:46:03 --> Undefined array key "komik"
+#0 C:\xampp\htdocs\siDika\app\Views\komik\editkomik.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('komik/editkomik', Array, true)
+#4 C:\xampp\htdocs\siDika\app\Controllers\Komik.php(98): view('komik/editkomik', Array)
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Komik->edit('naruto')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,65 @@
+ERROR - 2022-02-09 22:32:30 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-02-09 22:32:30 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ms...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ms...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ms...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ms...', Array, false)
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\siDika\app\Controllers\Mastersasaran.php(186): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Mastersasaran->delete()
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mastersasaran))
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-02-09 22:33:48 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-02-09 22:33:48 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ms...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ms...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ms...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ms...', Array, false)
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\siDika\app\Controllers\Mastersasaran.php(186): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Mastersasaran->delete()
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mastersasaran))
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-02-09 22:41:19 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sidika`.`ms_sasaran_detail`, CONSTRAINT `ms_sasaran_detail_ibfk_1` FOREIGN KEY (`fr_id_sasaran`) REFERENCES `ms_sasaran` (`id_sasaran`))
+CRITICAL - 2022-02-09 22:41:19 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sidika`.`ms_sasaran_detail`, CONSTRAINT `ms_sasaran_detail_ibfk_1` FOREIGN KEY (`fr_id_sasaran`) REFERENCES `ms_sasaran` (`id_sasaran`))
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ms...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ms...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ms...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ms...', Array, false)
+#4 C:\xampp\htdocs\siDika\app\Models\mssasaranModel.php(56): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\siDika\app\Controllers\Mastersasaran.php(186): App\Models\mssasaranModel->deletebyid('20')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Mastersasaran->delete()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mastersasaran))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-02-09 23:41:57 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('mastersasaran/s...', 'before')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-09 23:42:08 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('mastersasaran', 'before')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-09 23:42:08 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('mastersasaran', 'before')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

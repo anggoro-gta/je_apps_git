@@ -1,0 +1,24 @@
+CRITICAL - 2022-04-03 20:46:57 --> Undefined variable $data
+#0 C:\xampp\htdocs\siDika\app\Controllers\Entrysasaranpd.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrysasaranpd->apigetdatatujuanpd()
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrysasaranpd))
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-03 20:46:57 --> Undefined variable $data
+#0 C:\xampp\htdocs\siDika\app\Controllers\Entrysasaranpd.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrysasaranpd->apigetdatatujuanpd()
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrysasaranpd))
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-03 20:46:58 --> Undefined variable $data
+#0 C:\xampp\htdocs\siDika\app\Controllers\Entrysasaranpd.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrysasaranpd->apigetdatatujuanpd()
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrysasaranpd))
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

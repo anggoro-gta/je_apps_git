@@ -1,0 +1,57 @@
+ERROR - 2022-01-13 00:07:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-01-13 00:07:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\siDika\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\siDika\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\xampp\htdocs\siDika\vendor\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-01-13 22:25:00 --> Too few arguments to function App\Controllers\Mastertujuan::tujuandetail(), 0 passed in C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Mastertujuan->tujuandetail()
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mastertujuan))
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-13 22:25:24 --> Too few arguments to function App\Controllers\Mastertujuan::tujuandetail(), 0 passed in C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Mastertujuan->tujuandetail()
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mastertujuan))
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-13 22:32:42 --> Too few arguments to function App\Controllers\Mastertujuan::tujuandetail(), 0 passed in C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Mastertujuan->tujuandetail()
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mastertujuan))
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-13 23:02:58 --> Undefined property: App\Controllers\Mastertujuan::$load
+#0 C:\xampp\htdocs\siDika\app\Controllers\Mastertujuan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Mastertujuan->__construct()
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-13 23:04:44 --> Undefined property: CodeIgniter\Autoloader\Autoloader::$load
+#0 C:\xampp\htdocs\siDika\app\Controllers\Mastertujuan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

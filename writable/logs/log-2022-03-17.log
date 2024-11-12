@@ -1,0 +1,90 @@
+CRITICAL - 2022-03-17 20:25:47 --> Undefined property: App\Controllers\Entrytujuanpd::$ms_tujuan
+#0 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 311)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-17 20:26:19 --> Undefined array key "tujuan"
+#0 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 320)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-17 21:58:05 --> Undefined array key "Pengembangan Ekonomi Kerakyatan dan Peningkatan Investasi Daerah"
+#0 C:\xampp\htdocs\siDika\app\Views\print\tujuanpdviewprint.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('print/tujuanpdv...', Array, true)
+#4 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(339): view('print/tujuanpdv...', Array)
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-17 22:27:38 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-17 22:32:28 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-17 22:33:44 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-17 22:34:07 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-17 22:36:17 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-17 23:16:53 --> Undefined array key "Pengembangan Sumber Daya Manusia yang Berkarakter Nasionalis-Religius"
+#0 C:\xampp\htdocs\siDika\app\Views\print\tujuanpdviewprint.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('print/tujuanpdv...', Array, true)
+#4 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(361): view('print/tujuanpdv...', Array)
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-17 23:16:58 --> Undefined array key "Pengembangan Sumber Daya Manusia yang Berkarakter Nasionalis-Religius"
+#0 C:\xampp\htdocs\siDika\app\Views\print\tujuanpdviewprint.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('print/tujuanpdv...', Array, true)
+#4 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(361): view('print/tujuanpdv...', Array)
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

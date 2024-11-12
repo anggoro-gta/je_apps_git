@@ -1,0 +1,108 @@
+CRITICAL - 2022-02-11 00:10:11 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 47
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(47): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisi('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:10:13 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 47
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(47): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisi('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:10:25 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 47
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(47): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisi('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:10:33 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 47
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(47): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisi('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:23:35 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 59
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(59): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisiterm('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:23:36 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 59
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(59): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisiterm('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:23:37 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 59
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(59): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisiterm('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:23:38 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 59
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(59): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisiterm('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:23:38 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 59
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(59): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisiterm('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:24:40 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 58
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(58): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisiterm('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:24:44 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 58
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(58): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisiterm('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-11 00:24:55 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\siDika\app\Models\msmisiModel.php on line 58
+#0 C:\xampp\htdocs\siDika\app\Models\msmisiModel.php(58): CodeIgniter\Database\BaseBuilder->like('misi', NULL)
+#1 C:\xampp\htdocs\siDika\app\Controllers\Entrydata.php(59): App\Models\msmisiModel->getapimisiterm('1', NULL)
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrydata->apigetdatamisi()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrydata))
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

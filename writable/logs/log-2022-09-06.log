@@ -1,0 +1,24 @@
+CRITICAL - 2022-09-06 00:35:22 --> Undefined array key "nama_skpd"
+#0 C:\xampp\htdocs\siDika\app\Views\print\tesprintsipd.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('print/tesprints...', Array, true)
+#4 C:\xampp\htdocs\siDika\app\Controllers\Printscraping.php(2614): view('print/tesprints...', Array)
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Printscraping->tesprintsipd()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printscraping))
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-09-06 00:35:48 --> Undefined array key "nama_skpd"
+#0 C:\xampp\htdocs\siDika\app\Views\print\tesprintsipd.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('print/tesprints...', Array, true)
+#4 C:\xampp\htdocs\siDika\app\Controllers\Printscraping.php(2614): view('print/tesprints...', Array)
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Printscraping->tesprintsipd()
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printscraping))
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

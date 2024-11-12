@@ -1,0 +1,40 @@
+CRITICAL - 2022-01-20 02:22:52 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('mastertujuan', 'before')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-20 02:22:53 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('mastertujuan/tu...', 'before')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-20 02:22:58 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('mastertujuan/', 'before')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-20 02:22:58 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('mastertujuan', 'before')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-20 21:02:13 --> Undefined variable $datauser
+#0 C:\xampp\htdocs\siDika\app\Views\datamaster\tujuanedit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('datamaster/tuju...', Array, true)
+#4 C:\xampp\htdocs\siDika\app\Controllers\Mastertujuan.php(89): view('datamaster/tuju...', Array)
+#5 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Mastertujuan->editdatatujuan('1')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mastertujuan))
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

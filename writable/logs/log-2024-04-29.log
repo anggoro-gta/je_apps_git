@@ -1,0 +1,17 @@
+CRITICAL - 2024-04-29 20:54:11 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp8212\\ht...', 253)
+#1 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\Common.php(937): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp8212\htdocs\je_apss\vendor\myth\auth\src\Controllers\AuthController.php(29): service('session')
+#10 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\CodeIgniter.php(801): Myth\Auth\Controllers\AuthController->__construct()
+#11 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#12 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp8212\htdocs\je_apss\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp8212\htdocs\je_apss\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8212\\ht...')
+#15 {main}

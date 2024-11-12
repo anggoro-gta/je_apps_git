@@ -1,0 +1,14 @@
+ERROR - 2022-03-29 22:32:34 --> Unknown column 'id_tujuan_detail' in 'field list'
+CRITICAL - 2022-03-29 22:32:34 --> Unknown column 'id_tujuan_detail' in 'field list'
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tuju...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tuju...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tuju...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `id_tuju...', Array, false)
+#4 C:\xampp\htdocs\siDika\app\Models\tbtujuanpddetailModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(367): App\Models\tbtujuanpddetailModel->cetak_getdetaildatatujuanpd('fr_id_tujuanpd ...')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->viewprintpdftujuanpd()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

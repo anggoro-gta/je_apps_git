@@ -1,0 +1,14 @@
+ERROR - 2022-06-16 16:48:38 --> Unknown column 'id_misi' in 'where clause'
+CRITICAL - 2022-06-16 16:48:38 --> Unknown column 'id_misi' in 'where clause'
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `users` ...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp\htdocs\siDika\app\Models\usersModel.php(48): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\siDika\app\Controllers\Home.php(93): App\Models\usersModel->updatepass('$2y$10$8PWxUY21...', '1.01.2.19.0.00....')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->updatepassword()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

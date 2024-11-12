@@ -1,0 +1,15 @@
+CRITICAL - 2022-01-07 18:24:15 --> Class name must be a valid object or a string
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::resetter(Object(Myth\Auth\Config\Auth), false)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('resetter', Array)
+#2 C:\xampp\htdocs\siDika\vendor\myth\auth\src\Config\Services.php(107): CodeIgniter\Config\BaseService::getSharedInstance('resetter', NULL)
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::resetter()
+#4 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Common.php(937): CodeIgniter\Config\BaseService::__callStatic('resetter', Array)
+#5 C:\xampp\htdocs\siDika\vendor\myth\auth\src\Controllers\AuthController.php(238): service('resetter')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptForgot()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-07 18:24:54 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-01-07 18:25:20 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()

@@ -1,0 +1,28 @@
+ERROR - 2022-02-23 02:09:32 --> Unknown column 'id_tujuanpd' in 'where clause'
+CRITICAL - 2022-02-23 02:09:32 --> Unknown column 'id_tujuanpd' in 'where clause'
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\siDika\app\Models\tbtujuanpdModel.php(93): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(288): App\Models\tbtujuanpdModel->deletetujuanpdbyid('8')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->hapustujuanpd()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-23 02:10:28 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sidika`.`tb_tujuanpd_detail`, CONSTRAINT `tb_tujuanpd_detail_ibfk_1` FOREIGN KEY (`fr_id_tujuanpd`) REFERENCES `tb_tujuanpd` (`id_tujuanpd`))
+CRITICAL - 2022-02-23 02:10:28 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sidika`.`tb_tujuanpd_detail`, CONSTRAINT `tb_tujuanpd_detail_ibfk_1` FOREIGN KEY (`fr_id_tujuanpd`) REFERENCES `tb_tujuanpd` (`id_tujuanpd`))
+#0 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\siDika\app\Models\tbtujuanpdModel.php(93): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\siDika\app\Controllers\Entrytujuanpd.php(288): App\Models\tbtujuanpdModel->deletetujuanpdbyid('4')
+#6 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Entrytujuanpd->hapustujuanpd()
+#7 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Entrytujuanpd))
+#8 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siDika\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\siDika\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
